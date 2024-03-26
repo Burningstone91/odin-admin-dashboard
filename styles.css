@@ -28,9 +28,9 @@ body {
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 2fr 3fr;
   row-gap: 15px;
-  padding: 10px 50px 20px 30px; 
-  border-bottom: solid 1px;
+  padding: 10px 60px 10px 30px; 
   font-weight: bold;
+  box-shadow: 2px 2px 5px rgba(90, 90, 90, 0.60);
 }
 
 .search-bar {
@@ -63,25 +63,29 @@ input[type="search"] {
 
 .user-info > span.material-icons {
   font-size: 24px;
+  cursor: pointer;
 }
 
 .user-info > img {
   width: 40px;
+  cursor: pointer;
 }
 
 .greeting {
   display: flex;
   align-items: center;
   gap: 15px;
+  font-size: 0.8rem;
 }
 
 .greeting > img {
   width: 64px;
+  cursor: pointer;
 }
 
 .buttons {
   display: flex;
-  align-items: end;
+  align-items: center;
   justify-content: flex-end;
   gap: 25px;
   margin-bottom: 10px;
@@ -96,6 +100,7 @@ button {
   width: 90px;
   padding: 10px;
   background-color: var(--blue);
+  cursor: pointer;
 }
 
 /* Sidebar */
